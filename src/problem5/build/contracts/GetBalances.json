@@ -1,0 +1,362 @@
+{
+  "contractName": "GetBalances",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "sayHello",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"sayHello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/GetBalances.sol\":\"GetBalances\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/GetBalances.sol\":{\"keccak256\":\"0x59e5a24b0433504386b678893083379035216bb91db46161d1512795c3649bd5\",\"urls\":[\"bzz-raw://52f0a77a255b18cb8c68edfaf77909b011f55b2a259011d3ef560615125d0c89\",\"dweb:/ipfs/QmUEqadQ7BY2ABkDpsvVcCqHBBhRdi2ZrosgMPpTKzJQTE\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ef5fb05b14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600981526020017f48656c6c6f20536f6c000000000000000000000000000000000000000000000081525090509056fea265627a7a723158207026e66277f458c2a582b2e72b5a7a1f36c3a1dfe4827f0f5542bf6cbcfb602064736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ef5fb05b14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600981526020017f48656c6c6f20536f6c000000000000000000000000000000000000000000000081525090509056fea265627a7a723158207026e66277f458c2a582b2e72b5a7a1f36c3a1dfe4827f0f5542bf6cbcfb602064736f6c63430005100032",
+  "sourceMap": "66:112:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:112:0;;;;;;;",
+  "deployedSourceMap": "66:112:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:112:0;;;;;;;;;;;;;;;;;;;91:85;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;91:85:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;132:13;152:19;;;;;;;;;;;;;;;;;;;91:85;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract GetBalances {\n  function sayHello() public pure returns (string memory){\n    return(\"Hello Sol\");\n  }\n}\n",
+  "sourcePath": "/Users/ansleydsouza/development/projects/Code-Challenge/src/problem5/contracts/GetBalances.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/GetBalances.sol",
+    "exportedSymbols": {
+      "GetBalances": [
+        11
+      ]
+    },
+    "id": 12,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11,
+        "linearizedBaseContracts": [
+          11
+        ],
+        "name": "GetBalances",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 9,
+              "nodeType": "Block",
+              "src": "146:30:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "48656c6c6f20536f6c",
+                        "id": 6,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "159:11:0",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_6b5535a1166b76216108c6f4db433425201a0ec5c0e2ace3ec4cc69e93a1a4be",
+                          "typeString": "literal_string \"Hello Sol\""
+                        },
+                        "value": "Hello Sol"
+                      }
+                    ],
+                    "id": 7,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "158:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_6b5535a1166b76216108c6f4db433425201a0ec5c0e2ace3ec4cc69e93a1a4be",
+                      "typeString": "literal_string \"Hello Sol\""
+                    }
+                  },
+                  "functionReturnParameters": 5,
+                  "id": 8,
+                  "nodeType": "Return",
+                  "src": "152:19:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 10,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sayHello",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "108:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10,
+                  "src": "132:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "132:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "131:15:0"
+            },
+            "scope": 11,
+            "src": "91:85:0",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 12,
+        "src": "66:112:0"
+      }
+    ],
+    "src": "32:147:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/GetBalances.sol",
+      "exportedSymbols": {
+        "GetBalances": [
+          11
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            11
+          ],
+          "name": "GetBalances",
+          "scope": 12
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "sayHello",
+              "scope": 11,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "108:2:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 10,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 3,
+                        "name": "ElementaryTypeName",
+                        "src": "132:6:0"
+                      }
+                    ],
+                    "id": 4,
+                    "name": "VariableDeclaration",
+                    "src": "132:13:0"
+                  }
+                ],
+                "id": 5,
+                "name": "ParameterList",
+                "src": "131:15:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 5
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isInlineArray": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "type": "literal_string \"Hello Sol\""
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "48656c6c6f20536f6c",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "string",
+                              "type": "literal_string \"Hello Sol\"",
+                              "value": "Hello Sol"
+                            },
+                            "id": 6,
+                            "name": "Literal",
+                            "src": "159:11:0"
+                          }
+                        ],
+                        "id": 7,
+                        "name": "TupleExpression",
+                        "src": "158:13:0"
+                      }
+                    ],
+                    "id": 8,
+                    "name": "Return",
+                    "src": "152:19:0"
+                  }
+                ],
+                "id": 9,
+                "name": "Block",
+                "src": "146:30:0"
+              }
+            ],
+            "id": 10,
+            "name": "FunctionDefinition",
+            "src": "91:85:0"
+          }
+        ],
+        "id": 11,
+        "name": "ContractDefinition",
+        "src": "66:112:0"
+      }
+    ],
+    "id": 12,
+    "name": "SourceUnit",
+    "src": "32:147:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xEB56503547b48e3551100A38e8A9386649175775",
+      "transactionHash": "0x49e4fb38e3c93c15a344fc807fb4b106de959beefb8f44a8fc6a3a0224c57ae1"
+    }
+  },
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-03-16T09:33:12.374Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
