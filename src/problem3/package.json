@@ -1,0 +1,11 @@
+{
+  "name": "problem3",
+  "version": "1.0.0",
+  "description": "datasource connector to abstract away data retrieval and manipulation from the View Controllers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ansley D'souza",
+  "license": "MIT"
+}
