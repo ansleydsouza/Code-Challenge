@@ -2,10 +2,13 @@
   "name": "problem3",
   "version": "1.0.0",
   "description": "datasource connector to abstract away data retrieval and manipulation from the View Controllers",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ansley D'souza",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
 }
